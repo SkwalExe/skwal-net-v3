@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { 
+    @apply font-inter;
+}
+#layout-body[theme="midnight-abyss"] {
+    --color-primary: 0 0 0;
+    --color-secondary: 39 44 56;
+    --accent-color: 29 161 146;
+    /* --accent-color: 201 133 199; */
+    color: white;
+}
+
+#layout-body {
+    @apply pt-24 scroll-smooth;
+}
+
+.box {
+    h1, p { @apply transition-colors duration-700; }
+    h1 { @apply text-xl font-semibold text-accent/80 md:indent-16 pb-5; }
+    p { @apply text-white/80; }
+}
+
+.box-fancy {
+    h1 { @apply text-2xl font-semibold pb-5 md:indent-16 text-accent; }
+}
+
+hr { @apply border-accent/80 my-5; }
