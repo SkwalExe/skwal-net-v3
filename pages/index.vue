@@ -20,6 +20,7 @@
                 <li><Lnk new-tab="true" href="https://github.com/SkwalExe">My Github profile</Lnk></li>
                 <li><Lnk new-tab="true" href="https://blog.skwal.net">Visit my technical blog</Lnk></li>
                 <li><Lnk new-tab="true" href="https://status.skwal.net">Services Status Page</Lnk></li>
+                <li><Lnk new-tab="true" href="http://h452fxjm2mv44hqytxahde4kjgg5tlbgd2un4yiqcfk3s35c2w63uryd.onion/">This site on the Tor Network</Lnk></li>
             </ul>
         </Box>
     </div>
