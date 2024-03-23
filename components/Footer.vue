@@ -7,8 +7,11 @@
         <Pill>+33 9 55 70 80 52</Pill>
         <Pill>support@skwal.net</Pill>
       </div>
-      <div class="flex gap-1 flex-wrap max-w-96 justify-center">
+      <div class="flex gap-1 flex-wrap max-w-[1000px] justify-center">
         <Lnk new-tab="true" href="https://status.skwal.net"><Pill>📊 Status Page</Pill></Lnk>
+        <Lnk new-tab="true" href="https://projects.skwal.net"><Pill>⭐ Projects</Pill></Lnk>
+        <Lnk new-tab="true" href="https://github.com/SkwalExe/"><Pill>🐙 GitHub</Pill></Lnk>
+        <Lnk new-tab="true" href="https://blog.skwal.net"><Pill>📜 Blog</Pill></Lnk>
       </div>
     </div>
   </div>

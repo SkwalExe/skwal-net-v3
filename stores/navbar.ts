@@ -4,6 +4,7 @@ import type NavBtnInfo from '~/classes/NavBtnInfo'
 const defaultButtons: NavBtnInfo[] = [
   { title: 'Home', path: '/', icon: 'ic:round-home', newTab: false },
   { title: 'Blog', path: 'https://blog.skwal.net', icon: 'material-symbols:article', newTab: true },
+  { title: 'Projects', path: 'https://projects.skwal.net', icon: 'solar:star-bold', newTab: true },
   { title: 'GitHub', path: 'https://github.com/SkwalExe', icon: 'mdi:github', newTab: true},
 ]
 
