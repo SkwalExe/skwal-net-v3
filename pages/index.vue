@@ -17,6 +17,7 @@
             <h1 class="group-hover:text-accent">🔗 My Links</h1>
             <ul class="list-decimal list-inside">
                 <li><Lnk new-tab="true" href="/docs/resume-fr.pdf">My resume (French)</Lnk></li>
+                <li><Lnk new-tab="true" href="https://projects.skwal.net/">My projects</Lnk></li>
                 <li><Lnk new-tab="true" href="https://github.com/SkwalExe">My Github profile</Lnk></li>
                 <li><Lnk new-tab="true" href="https://blog.skwal.net">Visit my technical blog</Lnk></li>
                 <li><Lnk new-tab="true" href="https://status.skwal.net">Services Status Page</Lnk></li>
