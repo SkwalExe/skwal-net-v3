@@ -6,7 +6,7 @@
   >
     <div class="flex justify-center flex-col items-center">
       <NavBar />
-      <div class="max-w-6xl sm:p-10 p-4 flex flex-col gap-5">
+      <div class="w-full max-w-6xl sm:p-10 p-4 flex flex-col gap-5">
         <slot />
       </div>
     </div>

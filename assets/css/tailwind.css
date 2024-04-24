@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html { 
-    @apply font-inter md:text-lg;
+    @apply font-inter md:text-lg break-words;
 }
 #layout-body[theme="midnight-abyss"] {
     --color-primary: 0 0 0;
@@ -14,7 +14,7 @@ html {
 }
 
 #layout-body {
-    @apply pt-16 md:pt-24 scroll-smooth;
+    @apply md:pt-0 pt-3 scroll-smooth;
 }
 
 .box {
