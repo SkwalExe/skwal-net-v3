@@ -1,0 +1,5 @@
+Files created in this folder are "intercepted" by 
+backend scripts which trigger specific actions.
+Available hooks:
+- redeploy -> fetch commits from the 
+    repo and restart the web server
