@@ -8,4 +8,13 @@ export default defineNuxtConfig({
     'nuxt-icon-tw', 
     '@nuxtjs/google-fonts'
   ],
+  app: {
+    head: { 
+      title: 'Skwal\'s site',
+      meta: [
+        { name: "description", content: "Skwal.net is my personal website, where I share my projects, my thoughts, and my knowledge." },
+      ]
+    }
+  }
+
 })
