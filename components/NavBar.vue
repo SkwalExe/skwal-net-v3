@@ -1,6 +1,6 @@
 <template>
     <header :class="`${navOpened ? 'h-full' : ''} border-b-accent/80 border-b md:h-auto select-none flex fixed w-full top-0 items-center bg-primary/30 justify-center z-50 mb-5 shadow backdrop-blur-lg`">
-        <nav class="flex flex-col md:flex-row justify-center items-center px-5 py-2 w-full max-w-6xl h-full">
+        <nav class="flex flex-col md:flex-row justify-center items-center px-5 py-2 w-full max-w-[2048px]  h-full">
             <div class="w-full flex justify-between">
                 <div class="logo flex items-center gap-2">
                     <img src="/img/logo.png" class="h-10 rounded-full"/>

@@ -3,7 +3,7 @@
     <p>© 2018-2024, Léopold Koprivnik, all rights reserved.</p>
     <p>This website is open source and is <Lnk href="https://github.com/SkwalExe/skwal-net-v3">available on GitHub</Lnk></p>
     <div class="space-y-2">
-      <div class="flex justify-center mt-3 gap-1">
+      <div class="flex justify-center mt-3 gap-1 flex-wrap">
         <Pill>+33 9 55 70 80 52</Pill>
         <Pill>support@skwal.net</Pill>
       </div>
