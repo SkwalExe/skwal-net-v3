@@ -1,9 +1,8 @@
 <template>
-  <div class="box-fancy p-[2px] bg-gradient-to-br transition duration-500 from-accent to-accent/30 rounded-md hover:scale-[1.005]">
-        <div class="bg-primary rounded-md">
-            <div class="p-10 bg-gradient-to-tl from-violet-500/20 to-accent/20 rounded-md">
-                <slot />
-            </div>
+    <div class="box-fancy border-[2px] border-white/25 transition duration-75 hover:border-white/30 bg-black/50 rounded-xl overflow-hidden">
+        <div class="fancy p-10 bg-gradient-to-tl from-violet-500/20 to-accent/20">
+            <slot />
         </div>
     </div>
+    
 </template>
