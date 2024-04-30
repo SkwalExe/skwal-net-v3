@@ -1,5 +1,5 @@
 <template>
-    <div class="box group p-10 ring-2 ring-inset ring-white/15 hover:ring-white/25 transition duration-700 shadow-inner hover:shadow-accent/25 rounded-md w-full">
+    <div class="bg-black/30 box group p-10 backdrop-blur-xl border-[1px] border-white/15 hover:border-white/25 transition duration-700 rounded-xl w-full">
     <slot />
   </div>
 </template>

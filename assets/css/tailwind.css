@@ -15,6 +15,7 @@ html {
 
 #layout-body {
     @apply md:pt-0 pt-3 scroll-smooth;
+    background: url(/img/bg.svg) no-repeat center center fixed #1c1c1c;
 }
 
 .box {
