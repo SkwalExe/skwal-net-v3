@@ -1,7 +1,7 @@
 <template>
   <div
     id="layout-body"
-    class="bg-primary min-h-screen flex flex-col justify-between"
+    class="min-h-screen flex flex-col justify-between"
     theme="midnight-abyss"
   >
     <div class="flex justify-center flex-col items-center">
