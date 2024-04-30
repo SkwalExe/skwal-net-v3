@@ -2,7 +2,10 @@
     <header :class="`${navOpened ? 'h-full' : ''} border-b-accent/80 border-b md:h-auto select-none flex fixed w-full top-0 items-center bg-primary/70 justify-center z-50 mb-5 shadow backdrop-blur-md`">
         <nav class="flex flex-col md:flex-row justify-center items-center px-5 py-2 w-full max-w-6xl h-full">
             <div class="w-full flex justify-between">
-                <p class="text-3xl bg-clip-text text-transparent bg-gradient-to-r from-accent/40 via-accent/80 to-accent font-poppins font-semibold">Skwal</p>
+                <div class="logo flex items-center gap-2">
+                    <img src="/public/img/logo.png" class="h-10 rounded-full"/>
+                    <p class="text-3xl bg-clip-text text-transparent bg-gradient-to-r from-accent/40 via-accent/80 to-accent font-poppins font-semibold">Skwal</p>
+                </div>
                 <div class="flex items-center">
                     <Icon @click="toggleNav" 
                     class="cursor-pointer h-6 w-6 block md:!hidden"
