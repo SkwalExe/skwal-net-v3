@@ -17,7 +17,7 @@ body {
 }
 
 #layout-body {
-    @apply md:pt-0 pt-3 scroll-smooth;
+    @apply md:pt-0 pt-16 scroll-smooth;
 }
 
 .box {
