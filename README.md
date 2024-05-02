@@ -19,9 +19,16 @@
   <img src="https://raw.githubusercontent.com/SkwalExe/skwal-net-v3/main/assets/screenshot.png">
 </p>
 
+# Technologies used 🛠
+- Nuxt.js 3 🚀
+- Pinia 🍍
+- TailwindCSS 🎨
+- Vite ⚡
+
 # How to setup for development 📥
 
-> [!WARNING] You must have node.js and npm installed on your machine to run this project.
+> [!IMPORTANT] 
+> You must have node.js and npm installed on your machine to run this project.
 
 1. Clone the repository
 ```bash
