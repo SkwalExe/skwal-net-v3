@@ -27,7 +27,9 @@
         </Box>
         <Box>
             <h1 class="group-hover:text-accent">🔄 Demo</h1>
+            <p>Click a method to see its effects!</p>
             <p class="text-red-500">Press Ctrl+R or F5 to stop all effects.</p>
+            <hr />
             <ul v-if="mmz !== null" class="list-decimal list-inside">
                 <li><a class="link" @click="mmz.all()">memz.all()</a></li>
                 <li><a class="link" @click="mmz.changeCursor()">memz.changeCursor()</a></li>
