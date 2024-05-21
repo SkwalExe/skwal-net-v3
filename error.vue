@@ -4,8 +4,11 @@
             <BoxFancy class="mt-16">
                 <h1>Error {{ error?.statusCode }}</h1>
                 <p class="font-bold">{{ error?.statusMessage }}</p>
-                <p>If you think this is an error, you can contact us : <Lnk href="mailto:support@skwal.net">support@skwal.net</Lnk></p>
-                <hr>
+                <p>
+                    If you think this is an error, you can contact us :
+                    <Lnk href="mailto:support@skwal.net">support@skwal.net</Lnk>
+                </p>
+                <hr />
                 <div class="flex items-center gap-x-5">
                     <NuxtLink to="/">
                         <ButtonFancy>Home Page</ButtonFancy>
@@ -17,8 +20,6 @@
     </div>
 </template>
 
-<script setup>
-import Lnk from './components/Lnk.vue';
-
-    const error = useError()
+<script setup lang="ts">
+const error = useError()
 </script>
