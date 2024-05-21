@@ -31,3 +31,7 @@ body {
 }
 
 hr { @apply border-accent/80 my-5; }
+
+.link { 
+    @apply text-accent hover:text-opacity-100 text-opacity-80 transition duration-150 cursor-pointer;
+}

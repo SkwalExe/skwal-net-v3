@@ -2,7 +2,7 @@
     <a
         :href="href"
         :target="newTab ? '_blank' : '_self'"
-        class="text-accent hover:text-opacity-100 text-opacity-80 transition duration-150">
+        class="link">
         <slot />
     </a>
 </template>
