@@ -8,7 +8,8 @@
         "generate": "nuxt generate",
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare",
-        "lint": "eslint --fix ./**/*.ts ./**/*.vue",
+        "lint-fix": "eslint --fix ./**/*.ts ./**/*.vue",
+        "lint": "eslint ./**/*.ts ./**/*.vue",
         "format": "prettier ./**/*.ts ./**/*.vue --config prettier.config.mjs --write"
     },
     "dependencies": {
