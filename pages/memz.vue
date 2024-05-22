@@ -46,7 +46,7 @@
 
 <script setup lang="ts">
 import Memz from '@skwalexe/memz'
-let mmz: Ref<null | Memz> = ref(null)
+const mmz: Ref<null | Memz> = ref(null)
 onMounted(() => {
     mmz.value = new Memz('https://cdn.jsdelivr.net/gh/SkwalExe/Memz.js@0.1.0/src/assets/')
 })

@@ -26,8 +26,8 @@
 </template>
 
 <script setup lang="ts">
-const navBarStore = useNavbarStore()
 import {ref} from 'vue'
+const navBarStore = useNavbarStore()
 const navOpened = ref(false)
 const toggleNav = () => (navOpened.value = !navOpened.value)
 

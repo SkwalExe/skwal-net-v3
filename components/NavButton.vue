@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import NavBtnInfo from '~/classes/NavBtnInfo'
+import type NavBtnInfo from '~/classes/NavBtnInfo'
 const {link} = defineProps<{link: NavBtnInfo}>()
 </script>
 

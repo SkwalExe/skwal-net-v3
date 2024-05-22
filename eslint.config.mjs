@@ -1,15 +1,16 @@
 import ts from 'typescript-eslint'
 import pluginVue from 'eslint-plugin-vue'
 import eslintConfigPrettier from 'eslint-config-prettier'
+import withNuxt from './.nuxt/eslint.config.mjs'
 
-export default [
+
+export default withNuxt(
     ...ts.configs.recommended,
     // Parsing of vue files + adds rules
     ...pluginVue.configs['flat/recommended'],
     // Disable rules in conflict with prettier
     eslintConfigPrettier,
     {
-        files: ['**/*.ts', '**/*.vue', 'eslint.config.mjs'],
         rules: {
             'vue/multi-word-component-names': 'off',
             'eol-last': 'error',
@@ -28,7 +29,8 @@ export default [
             'comma-spacing': ['error', {before: false, after: true}],
             'linebreak-style': ['error', 'unix'],
             'spaced-comment': ['error', 'always'],
-            'no-unused-vars': 'off'
+            'no-unused-vars': 'off',
+            'vue/no-multiple-template-root': 'off'
         },
         languageOptions: {
             parserOptions: {
@@ -36,4 +38,4 @@ export default [
             }
         }
     }
-]
+)

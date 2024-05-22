@@ -8,9 +8,9 @@
         "generate": "nuxt generate",
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare",
-        "lint-fix": "eslint --fix ./**/*.ts ./**/*.vue",
-        "lint": "eslint ./**/*.ts ./**/*.vue",
-        "format": "prettier ./**/*.ts ./**/*.vue --config prettier.config.mjs --write"
+        "lint:fix": "eslint --fix .",
+        "lint": "eslint .",
+        "format": "prettier './**/*.ts' './**/*.vue' --config prettier.config.mjs --write"
     },
     "dependencies": {
         "@nuxtjs/google-fonts": "^3.1.3",
