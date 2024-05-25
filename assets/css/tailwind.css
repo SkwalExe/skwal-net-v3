@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html { 
+html {
     @apply font-inter md:text-lg break-words;
+    color-scheme: dark;
 }
-body { 
+body {
     background: url(/img/bg.svg) no-repeat center center fixed #1c1c1c;
 }
-#layout-body[theme="midnight-abyss"] {
+#layout-body[theme='midnight-abyss'] {
     --color-primary: 0 0 0;
     --color-secondary: 39 44 56;
     --accent-color: 29 161 146;
@@ -20,17 +21,52 @@ body {
     @apply md:pt-0 pt-16 scroll-smooth;
 }
 
-.box {
-    h1, p { @apply transition-colors duration-700; }
-    h1 { @apply text-xl md:text-2xl font-semibold text-accent/80 md:indent-10 pb-5; }
+h1, h2, h3, h4, h5, h6 {
+    @apply md:indent-16 indent-4;
 }
 
-.box-fancy {
-    h1 { @apply md:text-3xl text-2xl font-semibold pb-5 md:indent-16 text-accent; }
+h1 {
+    @apply md:text-3xl text-2xl font-semibold pb-5 text-accent;
 }
 
-hr { @apply border-accent/80 my-5; }
+h2 {
+    @apply md:text-2xl text-xl font-semibold text-orange-300 pb-4;
+}
 
-.link { 
-    @apply text-accent hover:text-opacity-100 text-opacity-80 transition duration-150 cursor-pointer;
+hr {
+    @apply border-accent/80 my-5;
+}
+
+input[type='text'] { 
+    @apply bg-black/20 rounded-lg py-2 px-5 outline-none w-full
+    border-[1px] border-white/10;
+}
+
+label {
+    @apply select-none flex gap-3;
+}
+
+.link {
+    @apply text-accent hover:text-opacity-100 
+    text-opacity-80 transition duration-150 cursor-pointer;
+}
+
+.fancy-button-blue {
+    @apply from-accent/80 to-violet-500/80
+    hover:shadow-accent/80 hover:shadow-lg;
+}
+
+.fancy-button-red {
+    @apply from-pink-900/80 to-red-900
+    hover:shadow-red-600/80 hover:shadow-lg;
+}
+
+.fancy-button-yellow {
+    @apply from-orange-800/80 to-yellow-700
+    hover:shadow-yellow-600/80 hover:shadow-lg;
+}
+
+.fancy-button-green {
+    @apply from-green-600/80 to-teal-900
+    hover:shadow-green-800 hover:shadow-lg;
 }
