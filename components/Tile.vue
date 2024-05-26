@@ -1,5 +1,5 @@
 <template>
-    <BoxFancy class="h-full min-w-[480px]">
+    <BoxFancy class="h-full md:min-w-[400px]">
         <div class="flex flex-col justify-between h-full">
             <div>
                 <h1>
