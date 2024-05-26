@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-16 flex gap-5 flex-wrap-reverse">
+    <div class="mt-16 flex gap-5 md:flex-wrap-reverse md:flex-row flex-col">
         <a href="/winmb" class="tile">
             <Tile
                 title="WinMB.js"
