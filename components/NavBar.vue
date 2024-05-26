@@ -19,7 +19,11 @@
                 id="nav_buttons"
                 :class="`flex flex-col space-y-1 w-full h-full ${navOpened ? '' : 'hidden'} left-0 p-5
             md:flex md:flex-row md:z-auto md:p-0 md:static md:justify-end md:space-x-3 md:space-y-0 md:mt-0 md:border-none border-t border-t-white/20 mt-5`">
-                <NavButton v-for="link in navBarStore.links" :key="link.title" :link="link" />
+                <NavButton
+                    v-for="link in navBarStore.links"
+                    :key="link.title"
+                    :link="link"
+                    @click="navOpened = false" />
             </div>
         </nav>
     </header>
