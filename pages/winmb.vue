@@ -2,9 +2,7 @@
     <BoxFancy>
         <h1>🪟 WinMB.js</h1>
         <p>
-            WinMB.js is a library that enables developers to create Windows-style message boxes directly on their
-            websites. This tool provides a way to integrate familiar dialog boxes by mimicking the native Windows
-            interface. You can find this library on GitHub, as well as its documentation.
+            {{ description }}. You can find this library on GitHub, as well as its documentation.
         </p>
         <div class="mt-5">
             <Lnk :new-tab="true" href="https://github.com/Skwalexe/WinMB.js">
@@ -33,7 +31,7 @@
 
 <script setup lang="ts">
 import WinMB from '@skwalexe/winmb'
-import Error from '~/error.vue'
+import { winmb as description } from '~/assets/descriptions'
 const returnValue: Ref<string> = ref('')
 
 const randomPosition: Ref<boolean> = ref(false)

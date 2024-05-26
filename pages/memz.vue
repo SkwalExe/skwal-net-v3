@@ -14,11 +14,7 @@
     <div class="flex gap-5 flex-col sm:flex-row">
         <Box>
             <h1 class="group-hover:text-accent">📚 Memz.js</h1>
-            <p>
-                Memz.js is a JavaScript library I created with the aim of mimicking the virus behavior on a website, all
-                within a web browser. Rest assured, it's completely harmless and its unique purpose is to have fun. You
-                can find the library on GitHub, as well as the documentation.
-            </p>
+            <p>{{ description }}</p>
             <div class="mt-5">
                 <Lnk :new-tab="true" href="https://github.com/Skwalexe/memz.js">
                     <ButtonFancy class="w-full">Github & Documentation</ButtonFancy>
@@ -45,6 +41,7 @@
 </template>
 
 <script setup lang="ts">
+import {memz as description} from '~/assets/descriptions'
 import Memz from '@skwalexe/memz'
 const mmz: Ref<null | Memz> = ref(null)
 onMounted(() => {
