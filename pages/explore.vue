@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-16 flex gap-5 md:flex-wrap-reverse md:flex-row flex-col">
+    <div class="flex sm:gap-5 md:flex-wrap md:flex-row flex-col">
         <a href="/winmb" class="tile">
             <Tile
                 title="WinMB.js"
@@ -11,6 +11,7 @@
             <Tile
                 title="Memz.js"
                 :text="memz"
+                icon="ph:virus-fill"
                 image="https://raw.githubusercontent.com/SkwalExe/Memz.js/main/assets/banner.png" />
         </a>
     </div>

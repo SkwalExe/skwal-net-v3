@@ -9,7 +9,7 @@
         </p>
     </BoxFancy>
 
-    <div class="flex gap-5 flex-col sm:flex-row">
+    <div class="flex sm:gap-5 flex-col sm:flex-row">
         <Box>
             <h1 class="group-hover:text-accent">📞 Contact Me</h1>
             <p class="group-hover:text-white">You can get in touch with me by:</p>
