@@ -18,7 +18,7 @@
         "@pinia/nuxt": "^0.5.1",
         "@skwalexe/memz": "^0.1.0",
         "@skwalexe/winmb": "^0.1.4",
-        "nuxt": "^3.12.4",
+        "nuxt": "^3.19.0",
         "nuxt-icon-tw": "^0.1.4",
         "pinia": "^2.1.7",
         "typescript": "^5.5.4",
